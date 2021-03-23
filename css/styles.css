@@ -80,8 +80,8 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-top: -3rem;
+  margin-bottom: 1.5rem;
 }
 
 p {
@@ -394,6 +394,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  color:#121416;
 }
 
 .display-1 {
@@ -3992,6 +3993,14 @@ input[type=button].btn-block {
   padding-right: 0;
   padding-left: 0;
 }
+.nav-lang-button {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  color:azure;
+}
+.nav-lang-button:hover, .nav-lang-button:focus {
+  text-decoration: none;
+}
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
@@ -7490,8 +7499,7 @@ button.bg-dark:focus {
 
 .mb-0,
 .my-0 {
-  margin-bottom: 0 !important;
-  margin-top:30px;
+  margin-bottom: 1.5rem ;
 }
 
 .ml-0,
@@ -7516,7 +7524,7 @@ button.bg-dark:focus {
 .mb-1,
 .my-1 {
   margin-bottom: 0.25rem !important;
-  margin-top: 0.25rem !important;
+  margin-top: 0.25rem;
   font-weight: bold;
   color:#276274;
 }
@@ -7543,6 +7551,7 @@ button.bg-dark:focus {
 .mb-2,
 .my-2 {
   margin-bottom: 0.5rem !important;
+  margin-top: 0;
 }
 
 .ml-2,
@@ -7614,7 +7623,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1.5rem ;
 }
 
 .ml-5,
@@ -10014,7 +10023,7 @@ p.lead {
 
 .subheading {
   font-family: "Baskerville", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.5rem;
 }
 
@@ -10121,7 +10130,7 @@ section.resume-section .resume-section-content {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
   max-width: 100%;
-  padding-bottom:50px;
+  padding-bottom:30px;
 }
 .portfolio-row .portfolio-item-1 {
   grid-column-start: 1;
@@ -10135,8 +10144,12 @@ section.resume-section .resume-section-content {
   grid-row-start: 1;
   grid-row-end: 2;
 }
-.album{
-  
+.portfolio-row .portfolio-item-3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-left: 15rem;
 }
 .bandcamp-embed{
   border: 0;
@@ -10146,4 +10159,8 @@ section.resume-section .resume-section-content {
 .youtube-embed {
   width:476px;
   height:268px;
+  border-radius:4px;
+}
+.soundcloud-embed {
+  width:72%;
 }
