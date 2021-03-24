@@ -5593,7 +5593,7 @@ a.close.disabled {
   font-size: 0.875rem;
   word-wrap: break-word;
   opacity: 0;
-}
+}*/
 .tooltip.show {
   opacity: 0.9;
 }
@@ -5659,17 +5659,17 @@ a.close.disabled {
 .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^=left] .arrow::before {
   left: 0;
   border-width: 0.4rem 0 0.4rem 0.4rem;
-  border-left-color: #000; */
+  border-left-color: #000;
 }
 
-/* .tooltip-inner {
+ .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
   color: #fff;
   text-align: center;
   background-color: #000;
   border-radius: 0.25rem;
-} */
+} 
 
 .popover {
   position: absolute;
