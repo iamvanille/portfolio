@@ -7568,10 +7568,9 @@ section.resume-section .resume-section-content {
   height:268px;
   border-radius:4px;
 }
-@media only screen
+/* @media only screen
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles */
 
   .youtube-embed {
     width :357px;
@@ -7581,7 +7580,7 @@ and (max-device-width : 480px) {
   .soundcloud-embed {
     width:72%;
 }
-}
+} */
 
 .tooltip {
   position: relative;
