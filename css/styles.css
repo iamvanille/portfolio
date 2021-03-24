@@ -5571,7 +5571,7 @@ a.close.disabled {
     max-width: 1140px;
   }
 }
-.tooltip {
+/* .tooltip {
   position: absolute;
   z-index: 1070;
   display: block;
@@ -5659,17 +5659,17 @@ a.close.disabled {
 .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^=left] .arrow::before {
   left: 0;
   border-width: 0.4rem 0 0.4rem 0.4rem;
-  border-left-color: #000;
+  border-left-color: #000; */
 }
 
-.tooltip-inner {
+/* .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
   color: #fff;
   text-align: center;
   background-color: #000;
   border-radius: 0.25rem;
-}
+} */
 
 .popover {
   position: absolute;
