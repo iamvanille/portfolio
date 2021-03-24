@@ -7574,8 +7574,8 @@ and (max-device-width : 480px) {
 /* Styles */
 
   .youtube-embed {
-    width :238px;
-    height:134px;
+    width :357px;
+    height:201px;
     border-radius:4px;
   }
   .soundcloud-embed {
