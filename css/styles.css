@@ -3887,7 +3887,7 @@ input[type=button].btn-block {
   text-decoration: none;
 }
 .nav-link.disabled {
-  color: #f5faff9c;
+  color: #6c757d;
   pointer-events: none;
   cursor: default;
 }
@@ -3907,7 +3907,7 @@ input[type=button].btn-block {
   border-color: #e9ecef #e9ecef #dee2e6;
 }
 .nav-tabs .nav-link.disabled {
-  color: #f5faff9c;
+  color: #6c757d;
   background-color: transparent;
   border-color: transparent;
 }
@@ -3994,14 +3994,6 @@ input[type=button].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
-}
-.nav-lang-button {
-  padding-right: 0.1rem;
-  padding-left: 0.1rem;
-  color:azure;
-}
-.nav-lang-button:hover, .nav-lang-button:focus {
-  text-decoration: none;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -5594,7 +5586,7 @@ a.close.disabled {
   word-wrap: break-word;
   opacity: 0;
 }*/
-.tooltip.show {
+/* .tooltip.show {
   opacity: 0.9;
 }
 .tooltip .arrow {
@@ -5608,7 +5600,7 @@ a.close.disabled {
   content: "";
   border-color: transparent;
   border-style: solid;
-}
+} */
 
 .bs-tooltip-top, .bs-tooltip-auto[x-placement^=top] {
   padding: 0.4rem 0;
@@ -5662,14 +5654,14 @@ a.close.disabled {
   border-left-color: #000;
 }
 
- .tooltip-inner {
+ /* .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
   color: #fff;
   text-align: center;
   background-color: #000;
   border-radius: 0.25rem;
-} 
+}  */
 
 .popover {
   position: absolute;
@@ -10171,7 +10163,14 @@ and (max-device-width : 480px) {
     width:72%;
 }
 } */
-
+.nav-lang-button {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  color:azure;
+}
+.nav-lang-button:hover, .nav-lang-button:focus {
+  text-decoration: none;
+}
 .tooltip {
   position: relative;
   display: inline-block;
