@@ -10191,6 +10191,12 @@ section.resume-section .resume-section-content {
   height:268px;
   border-radius:4px;
 }
+.youtube-embed-main {
+  width:714px;
+  height:402px;
+  border-radius:4px;
+}
+
 /* @media only screen
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
