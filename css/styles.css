@@ -400,12 +400,12 @@ h6, .h6 {
 .image-gallery {
   display: flex;
   flex-direction: row;
-  padding: 30px 30px 30px 0;
+  padding: 45px 0px 30px 0;
   flex-wrap: wrap;
 }
 .img-small {
-  width: 250px;
-  padding-right: 20px;
+  width: 242px;
+  padding-right: 10px;
   padding-bottom: 20px;
 }
 .skills-grid {
