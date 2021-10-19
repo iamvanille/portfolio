@@ -406,6 +406,20 @@ h6, .h6 {
   width: 250px;
   padding-right: 20px;
 }
+.skills-grid {
+  display: flex;
+  flex-direction: row;
+}
+.skills-img-column {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.img-skills {
+  width: 300px;
+  padding: 20px;
+  float: right;
+}
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
