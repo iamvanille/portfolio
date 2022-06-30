@@ -10425,6 +10425,12 @@ and (max-device-width : 480px) {
 .fade-in-text-fast {
   animation: fadeIn 0.5s;
 }
+.fade-in-text-faster{
+  animation: fadeIn 0.5s;
+}
+.fade-in-text-slower{
+  animation: fadeIn 3s;
+}
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
