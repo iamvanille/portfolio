@@ -10097,7 +10097,15 @@ h6 {
 h1 {
   line-height: 1;
 }
-
+.about-h1 {
+  text-align: center;
+  color: #313030;
+  margin-top: -190px;
+  margin-bottom: 190px;
+  text-shadow: 1px 1px #3485cc5e;
+  font-size: 90px;
+  letter-spacing: 3px;
+}
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -10165,6 +10173,7 @@ p.lead {
     flex-direction: row;
     font-weight: 400;
     padding-right: 30px;
+    margin-top: 5px;
   }
   #sideNav {
     text-align: center;
@@ -10435,48 +10444,53 @@ and (max-device-width : 480px) {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-#background-wild-card {
-  
-            
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: 50% 50%;
-    z-index: 0;
-    transition: opacity 500ms ease 0s;
-    opacity: 0.8;
-    background-image: url("/assets/img/wildcardblur.png");
-    font-family: Open Sans;
-    font-size: 14px;
-    color: #FFF;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-
-* {
-
-    -webkit-touch-callout: none;
-    -webkit-tap-highlight-color: transparent;
-
-}
-* {
-
-    box-sizing: border-box;
-
-}
-
-}
 .header-img {
   width: 100%;
   margin-bottom: -100px;
 }
-.about-h1 {
+#background-wild-card {
+  margin: -40px;
+}
+.big-announcement {
+  margin: 0;
+  width: 100%;
+}
+.big-announcement-headers {
+  display: grid;
+  grid-template-rows: 4fr 3fr 1fr;
+  position: absolute;
+  top: 280px;
+  align-content: center;
+  left: 28%;
+}
+#wildcard-h1 {
+  font-size: 100px;
+  color: #fff;
   text-align: center;
-  color: #313030;
-  margin-top: -190px;
-  margin-bottom: 190px;
-  text-shadow: 1px 1px #3485cc5e;
-  font-size: 90px;
-  letter-spacing: 3px;
+}
+#wildcard-h4 {
+  text-align: center;
+  color: #fff;
+  font-family: arial;
+}
+#wildcard-link {
+  text-align: center;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  border-color: grey;
+  padding: 8px 0px;
+}
+#wildcard-link:hover {
+  background-color: #ffffff00;
+  color: white;
+  border-color: white;
+}
+#wildcard-link > a {
+  text-decoration: none;
+  padding: 10px;
+}
+#wildcard-link > a:hover {
+  text-decoration: none;
+  color: white;
 }
