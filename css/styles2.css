@@ -10316,6 +10316,7 @@ section.resume-section .resume-section-content {
   grid-gap: 0.3rem;
   grid-auto-flow: dense;
   padding-bottom:30px;
+  /* width:1000px; */
 }
 .portfolio-row .portfolio-item {
   grid-column: span 1;
