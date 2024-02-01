@@ -10153,7 +10153,8 @@ p.lead {
   }
   #topNav .navbar-collapse .navbar-nav {
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
+    width: 700px;
   }
   #topNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
