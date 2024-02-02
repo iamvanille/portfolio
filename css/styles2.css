@@ -82,12 +82,17 @@ body {
   color: white;
 }
 .biography {
-  padding: 30px 10px 30px;  
+  padding: 30px 100px;  
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
-
+.paragraph {
+  padding: 20px;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 hr {
   box-sizing: content-box;
   height: 0;
@@ -4068,9 +4073,9 @@ input[type=button].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  font-weight: bold;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -6170,7 +6175,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #2d7692 !important;
+  /* background-color: #2d7692 !important; */
+  background-color: #1e4862 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10287,7 +10293,8 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
+  /* max-width: 75rem; */
+  text-align: center;
 }
 /* section.resume-section.intro{
   background-image:;  
@@ -10303,10 +10310,11 @@ section.resume-section .resume-section-content {
 }
 @media (min-width: 992px) {
   section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    background-color: #e9e9ee;
   }
 }
 .portfolio-container{
