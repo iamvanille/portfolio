@@ -606,6 +606,9 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+#chansons, #songs {
+  text-align: left;
+}
 @media (max-width: 576px) {
   .img-skills {
     float: none;
