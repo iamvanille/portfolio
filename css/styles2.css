@@ -10356,7 +10356,12 @@ section.resume-section .resume-section-content {
   height:402px;
   border-radius:4px;
 }
-
+.video-embed{
+  width: 482px;
+  height: 275px;
+  border-radius: 4px;
+  margin-top: -8px;margin-left: 25px
+}
 /* @media only screen
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
