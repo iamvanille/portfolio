@@ -10360,7 +10360,8 @@ section.resume-section .resume-section-content {
   width: 482px;
   height: 275px;
   border-radius: 4px;
-  margin-top: -8px;margin-left: 25px
+  margin-top: -7px;
+  margin-left: 25px
 }
 /* @media only screen
 and (min-device-width : 320px) 
@@ -10390,7 +10391,7 @@ and (max-device-width : 480px) {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 70px;
+  width: 100px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-weight: 300;
@@ -10402,7 +10403,7 @@ and (max-device-width : 480px) {
   z-index: 1;
   top: 110%;
   left: 50%;
-  margin-left: -38px;
+  margin-left: -50px;
 }
 
 .tooltip .tooltiptext::after {
