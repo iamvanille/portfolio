@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://www.vanilledebray.com/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/index.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+        <image:image>
+            <image:loc>https://www.vanilledebray.com/assets/img/maison_accordion.jpg</image:loc>
+            <image:title></image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.vanilledebray.com/assets/img/masterclass_me.jpg</image:loc>
+            <image:title></image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.vanilledebray.com/assets/img/Piano_StudioB.jpg</image:loc>
+            <image:title></image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.vanilledebray.com/assets/img/WildCardSmall.png</image:loc>
+            <image:title></image:title>
+            <image:caption />
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/index_FR.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+        <image:image>
+            <image:loc>https://www.vanilledebray.com/assets/img/maison_accordion.jpg</image:loc>
+            <image:title></image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.vanilledebray.com/assets/img/masterclass_me.jpg</image:loc>
+            <image:title></image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.vanilledebray.com/assets/img/Piano_StudioB.jpg</image:loc>
+            <image:title></image:title>
+            <image:caption />
+        </image:image>
+        <image:image>
+            <image:loc>https://www.vanilledebray.com/assets/img/WildCardSmall.png</image:loc>
+            <image:title></image:title>
+            <image:caption />
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/portfolio.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/portfolio_FR.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/bio.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/bio_FR.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/songs.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/songs_FR.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/tutorials.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/tutoriels.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/contact.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+     <url>
+        <loc>https://www.vanilledebray.com/contact_FR.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2023-05-05</lastmod>
+    </url>
+</urlset>
