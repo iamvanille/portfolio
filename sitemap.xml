@@ -4,13 +4,13 @@
         <loc>https://www.vanilledebray.com/</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
         <loc>https://www.vanilledebray.com/index</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
         <image:image>
             <image:loc>https://www.vanilledebray.com/assets/img/maison_accordion.jpg</image:loc>
             <image:title></image:title>
@@ -36,7 +36,7 @@
         <loc>https://www.vanilledebray.com/index_FR</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
         <image:image>
             <image:loc>https://www.vanilledebray.com/assets/img/maison_accordion.jpg</image:loc>
             <image:title></image:title>
@@ -62,60 +62,66 @@
         <loc>https://www.vanilledebray.com/portfolio</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
         <loc>https://www.vanilledebray.com/portfolio_FR</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
         <loc>https://www.vanilledebray.com/bio</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
         <loc>https://www.vanilledebray.com/bio_FR</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
         <loc>https://www.vanilledebray.com/songs</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
-        <loc>https://www.vanilledebray.com/songs_FR</loc>
+        <loc>https://www.vanilledebray.com/chansons</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
         <loc>https://www.vanilledebray.com/tutorials</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
         <loc>https://www.vanilledebray.com/tutoriels</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
     <url>
         <loc>https://www.vanilledebray.com/contact</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
     </url>
-     <url>
+    <url>
         <loc>https://www.vanilledebray.com/contact_FR</loc>
         <changefreq>weekly</changefreq>
         <priority>0.75</priority>
-        <lastmod>2023-05-05</lastmod>
+        <lastmod>2024-11-05</lastmod>
+    </url>
+    <url>
+        <loc>https://www.vanilledebray.com/404</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <lastmod>2024-11-05</lastmod>
     </url>
 </urlset>
