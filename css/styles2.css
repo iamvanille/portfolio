@@ -421,7 +421,7 @@ h6, .h6 {
 .image-gallery {
   display: flex;
   flex-direction: row;
-  padding: 45px 0px 30px 0;
+  padding: 45px 0px 30px 26px;
   flex-wrap: wrap;
 }
 .img-small {
