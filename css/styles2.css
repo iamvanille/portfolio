@@ -10105,19 +10105,24 @@ body {
   color: #6c757d;
 }
 @media (max-width: 991px) {
+  #intro-new > .resume-section-content > .subheading {
+    font-size: 20px !important;
+  }
   h4 {
     margin-top: 0;
   }
   .biography-new {
     padding: 30px 20px;
+    font-size: 15px;
   }
   .biography-cols {
     display: flex;
     flex-direction: column;
     margin-top: 6rem;
-    text-align: left;
+    text-align: center;
     line-height: 2;
   }
+
   .biography-div {
     display: flex;
     flex-direction: column !important;
@@ -10125,6 +10130,7 @@ body {
     padding: 20px !important;
     text-align: justify !important;
     line-height: 1.5;
+    font-size: 15px;
   }
   .img-bio {
     width: 283px;
@@ -10301,7 +10307,7 @@ p.lead {
     object-fit: contain;
   }
   .biography-cols > .col-lg-6 {
-    margin-right: 3rem;
+    margin-right: 5rem;
   }
 }
 .social-icons .social-icon {
