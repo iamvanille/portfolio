@@ -10127,12 +10127,19 @@ h1 {
   line-height: 1;
 }
 .about-h1 {
-  text-align: center;
+  /* text-align: center;
   color: #313030;
   margin-top: -190px;
   margin-bottom: 190px;
   text-shadow: 1px 1px #3485cc5e;
   font-size: 90px;
+  letter-spacing: 3px; */
+  text-align: center;
+  color: #333;
+  margin-top: -190px;
+  margin-bottom: 190px;
+  text-shadow: 1px 1px #ffffff5e;
+  font-size: 72px;
   letter-spacing: 3px;
 }
 p.lead {
