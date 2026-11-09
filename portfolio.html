@@ -49,6 +49,39 @@
                     <h1 class="mb-0 slide-down-animation">Portfolio</h1>
                     
                     <h4 id="soundtrack" class="mb-1 fade-in-text-fast">Film Scoring</h4>
+                    <div class="film-gallery" aria-label="Film scoring projects">
+                        <button class="film-gallery-card" type="button" data-title="Get Up, David, Get Up" data-description="Currently in production: a feature-length documentary directed by Allen Forouhar."><img src="assets/img/get_up_david.jpg" alt="" /><span>Get Up, David, Get Up</span></button>
+                        <button class="film-gallery-card" type="button" data-title="Masterpiece" data-description="Margo, a struggling painter, risks losing everything when the revelation of an affair threatens her future. After an uninvited guest arrives at her dinner party, she confronts the sins and secrets of her past in a chaotic, hilarious evening of misunderstandings and heartbreaks. This feature film won Best First Feature at the Montreal Independent Film Festival and Vanille Debray was nominated for Best Composer of the Season for the eclectic soundtrack featuring noir 60s inspired neo-classical pieces, alternative rock, cool jazz and more."><img src="assets/img/masterpiece_poster.png" alt="" /><span>Masterpiece</span></button>
+                        <button class="film-gallery-card" type="button" data-title="La malédiction dans nos ventres" data-description="Currently in production: documentary short film exploring themes of incest, intergenerational trauma and the strong bonds between mother and daughter. Directed by Anna Martinez for Les créations androgyne."><img src="assets/img/lmdnv_poster.png" alt="" /><span>La malédiction dans nos ventres</span></button>
+                        <button class="film-gallery-card" type="button" data-title="Les Cerises" data-description="Short drama film directed by Camille Gainnet, produced by Punchline Cinema. A dark and haunting soundtrack created with accordion and voice."><img src="assets/img/les_cerises_poster.png" alt="" /><span>Les Cerises</span></button>
+                        <button class="film-gallery-card" type="button" data-title="Reunion" data-description="After decades of separation, two brothers reunite at a rare event where families from both sides of the Korean border come together. This documentary short won Best Cinematography at the Reel Asian Film Festival 2024. Selected at Itaewon Film Festival 2025."><img src="assets/img/reunion_poster.png" alt="" /><span>Reunion</span></button>
+                        <button class="film-gallery-card" type="button" data-title="Bunker" data-description="A Belgian short drama film directed by Colin Javaux. Tirana Film Festival, Brussels Short Film Festival."><img src="assets/img/bunker_poster.png" alt="" /><span>Bunker</span></button>
+                        <button class="film-gallery-card" type="button" data-title="FIX" data-description=""><img src="assets/img/fix_poster.png" alt="Short drama film directed by Patric Lemay, Entremont Productions. Selected at Fantasia Film Festival 2026." /><span>FIX</span></button>
+                        <!-- <button class="film-gallery-card" type="button" data-title="Décalés" data-description=""><img src="" alt="" /><span>Décalés</span></button> -->
+                        <button class="film-gallery-card" type="button" data-title="Back to Normal" data-description="Comedy short directed by Sam Bhat. Nominated for Best Original Score at the Los Angeles International Short Film Festival - April 2025."><img src="assets/img/back_to_normal_poster.png" alt="" /><span>Back to Normal</span></button>
+                        <button class="film-gallery-card" type="button" data-title="Dangerous Rumours" data-description="Composed and produced the theme song 'Get you down' for this feature-length crime thriller directed by Craig Lobo. Another hole in the head genre film festival: best action/adventure film audience award 2024."><img src="assets/img/dangerous_rumours_poster.png" alt="" /><span>Dangerous Rumours</span></button>
+                        <button class="film-gallery-card" type="button" data-title="Peace, Love, Unicorns & Communism" data-description="Wrote the closing song and arranged a punk rock take on a Rachmaninov concerto for this documentary about student activism directed by Adeola Egbeyemi. Synopsis: chatting with another recent graduate, a former student activist learns about the controversial origin of a now-beloved campus group. she embarks on a journey through the recent past, weaving conversations with a vast ensemble of young organizers into a tapestry of disruption and determination. political, personal and bursting with youthful exuberance, peace love (unicorns) and communism is a homegrown chronicle of a decade of movements at McMaster University. as past struggles echo in the present, the film poses an urgent question to today's rising generation: do you believe that we will win?"><img src="assets/img/pluc_poster.png" alt="" /><span>Peace, Love, Unicorns & Communism</span></button>
+                        <!-- <button class="film-gallery-card" type="button" data-title="Project 11" data-description=""><img src="" alt="" /><span>Hotel Cap Estel</span></button> -->
+                        <button class="film-gallery-card" type="button" data-title="Rainbow" data-description="A short drama film about domestic abuse, directed by Johnny Cortes."><img src="assets/img/rainbow_poster.jpg" alt="" /><span>Rainbow</span></button>
+                        <button class="film-gallery-card" type="button" data-title="La Bastide de Laurence" data-description="A showcase for a luxury villa in the south of France, directed by Titouan Debray."><img src="assets/img/bastide_poster.jpg" alt="" /><span>La Bastide de Laurence</span></button>
+                        <button class="film-gallery-card" type="button" data-title="Villa Fantaisie" data-description="A showcase for a luxury villa in the south of France, directed by Titouan Debray."><img src="assets/img/villa_fantaisie_poster.png" alt="" /><span>Villa Fantaisie</span></button>
+                        <button class="film-gallery-card" type="button" data-title="Yonder - Backcountry Drive" data-description="A tourism short set in the south of France."><img src="assets/img/yonder_poster.png" alt="" /><span>Yonder - Backcountry Drive</span></button>
+                        
+                    </div>
+                    <dialog class="film-gallery-dialog" id="film-gallery-dialog" aria-labelledby="film-gallery-title">
+                        <button class="film-gallery-close" type="button" aria-label="Close project details">&times;</button>
+                        <div class="film-gallery-details">
+                            <img class="film-gallery-dialog-image" alt="" />
+                            <div>
+                                <h2 id="film-gallery-title"></h2>
+                                <div class="film-gallery-description"></div>
+                            </div>
+                        </div>
+                        <div class="film-gallery-controls">
+                            <button class="film-gallery-previous" type="button">&larr; Previous</button>
+                            <button class="film-gallery-next" type="button">Next &rarr;</button>
+                        </div>
+                    </dialog>
                       <div class="biography fade-in-text-slow">Demo Reel | Recent work</div>
                       <div class="portfolio-row">
                         <div class="portfolio-item">
@@ -234,5 +267,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/film-gallery.js"></script>
     </body>
 </html>
