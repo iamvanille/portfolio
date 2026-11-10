@@ -9,7 +9,7 @@
     const cards = Array.from(gallery.querySelectorAll(".film-gallery-card"));
     const dialogImage = dialog.querySelector(".film-gallery-dialog-image");
     const dialogTitle = dialog.querySelector("#film-gallery-title");
-    const dialogDescription = dialog.querySelector(".film-gallery-description");
+    const dialogDescription = dialog.querySelector(".film-gallery-description") || "";
     const previousButton = dialog.querySelector(".film-gallery-previous");
     const nextButton = dialog.querySelector(".film-gallery-next");
     const closeButton = dialog.querySelector(".film-gallery-close");
@@ -22,7 +22,8 @@
         const title = card.dataset.title || `Project ${activeIndex + 1}`;
 
         dialogTitle.textContent = title;
-        dialogDescription.textContent = card.dataset.description || "";
+        // dialogDescription.textContent = card.dataset.description || "";
+        dialogDescription.innerHTML = card.dataset.description || "";
         dialogImage.alt = title;
 
         const imageSource = image.getAttribute("src");
